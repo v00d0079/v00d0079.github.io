@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
-	<script src="index.js"></script>
-	  <div class=e1_75>
-  <div class="e1_76"></div>
-  <div class="e1_77"></div>
-  <div class="e1_78"></div>
-  <div class=e1_100></div>
-  <div class=e34_582>
-    <div class=e13_16>
-      <div class="e15_20"></div><span  class="e19_28">A wave based survival rouge-lite prototype created the monogame engine. Players shoot at various enemies to earn drops that help the player progress. Technologies used:
-C# Photoshop  MonoGame library </span><span  class="e1_80">Forklift Certified</span>
+    <div class="nav">
+        <div class="nav-items">
+            <div id="myLinks">
+                <a href="./index.html">About Me</a>
+                <a href="./src/Projects.html">Projects</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        <a href="javascript:void();" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" style="font: size 36px;"></i>
+        </a>
+        </div>
     </div>
-    <div class=e19_25>
-      <div class=e13_18>
-        <div class="e19_23"></div><span  class="e19_31">Statistics Dashboard created for Grinnell College to analyze patterns between departments and various desired learning outcomes. Tool was commissioned by a representative from GC who oversaw design and usability. Technologies used: R, Shiny, HTML/CSS</span><span  class="e88_194">GC Learning Outcomes</span>
-      </div>
-    </div>
-  </div>
-  <div class=e13_17>
-    <div class="e19_22"></div><span  class="e1_81">NBA Stats Dashboard</span><span  class="e19_30">Statistics Dashboard created to analyze patterns during the 2022-2023 NBA season. Users can filter by team, position, player, and age. Data was sourced from Kaggle. Technologies used: R
-Shiny </span>
-  </div>
-  <div class=e55_113>
-    <div class="e55_114"></div>
-    <div class="e55_115"></div>
-    <div class="e55_116"></div>
-  </div>
-</div>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Hi there, I'm Scott Nissen</h1>
+                <p1>I'm from Albuquerque, New Mexico and live in the DFW area. I graduated from Grinnell College in May '24 with a B.A in Computer Science</p1>
+                <h2>Other things I enjoy:</h2>
+                <ul class="a">
+                    <li>Movies</li>
+                    <li>Video Games</li>
+                    <li>Magic the Gathering</li>
+                    <li>Painting Warhammer Figures</li>
+                </ul>
+                <h3>My Skillset</h3>
+                <img src="./imgs/181_Java_logo_logos-512.webp" alt="Java" class="jimg">
+                <img src="./imgs/csharp.png" alt="csharp"class="cimg">
+                <img src="./imgs/R_logo.svg.png" alt="R"class="rimg">
+                <img src="./imgs/JavaScript-logo.png" alt="JS"class="jsimg">
+            </div>
+            <div class="column-right">
+                <img src="./imgs/resize.jpg" alt="me"class="me-img">
+            </div>
+        </div>
+    </section>
+    <div class="bot"></div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>  
   </body>
 </html>
