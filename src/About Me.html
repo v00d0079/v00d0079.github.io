@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./About Me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <div class="nav">
+        <div class="nav-items">
+            <div id="myLinks">
+                <a href="./About Me.html">About Me</a>
+                <a href="./Projects.html">Projects</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        <a href="javascript:void();" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" style="font: size 36px;"></i>
+        </a>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Hi there, I'm Scott Nissen</h1>
+                <p1>I'm from Albuquerque, New Mexico and live in the DFW area. I graduated from Grinnell College in May '24 with a B.A in Computer Science</p1>
+                <h2>Other things I enjoy:</h2>
+                <ul class="a">
+                    <li>Movies</li>
+                    <li>Video Games</li>
+                    <li>Magic the Gathering</li>
+                    <li>Painting Warhammer Figures</li>
+                </ul>
+                <h3>My Skillset</h3>
+                <img src="../imgs/181_Java_logo_logos-512.webp" alt="Java" class="jimg">
+                <img src="../imgs/csharp.png" alt="csharp"class="cimg">
+                <img src="../imgs/R_logo.svg.png" alt="R"class="rimg">
+                <img src="../imgs/JavaScript-logo.png" alt="JS"class="jsimg">
+            </div>
+            <div class="column-right">
+                <img src="../imgs/resize.jpg" alt="me"class="me-img">
+            </div>
+        </div>
+    </section>
+    <div class="bot"></div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>  
+  </body>
+</html>
