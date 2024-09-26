@@ -46,10 +46,11 @@
 }
 
 .hero-container{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(1fr 1fr);
     height: 95vh;
     padding: 0rem calc((100vw -1300px)/2);
+    gap: 10px;
 }
 
 .bot {
