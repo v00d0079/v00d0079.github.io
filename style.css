@@ -38,7 +38,6 @@
 .nav-items a:hover {
     background-color: #ddd;
     color: black;
-  
 }
 
 .hero{
@@ -61,7 +60,15 @@
 }
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    .nav, .nav-items .hero, .hero-container {
+    .nav, .nav-items .hero, .hero-container{
       width: 100%;
+    }
+    .nav{
+        height: 30px;
+    }
+    .nav-items a{
+        justify-content: space-between;
+        font-size: 1.57rem;
+        padding: 0 .83rem ;
     }
 }
